@@ -1,0 +1,39 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: shenh10
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
+          config_padding: 0, 8 + 11%
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: shenh10
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss, jupyter notebook, tex
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used

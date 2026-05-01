@@ -34,8 +34,10 @@ ML systems & infra · LLM training / inference · distributed RL · GPU performa
 ### 📊 Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=shenh10&show_icons=true&hide=issues&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=86400" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shenh10&layout=compact&theme=github_dark&hide_border=true&langs_count=8&cache_seconds=86400" />
+  <img src="./metrics.svg" alt="Metrics" width="780" />
+</p>
+<p align="center">
+  <img src="./metrics.languages.svg" alt="Languages" width="780" />
 </p>
 
 ---
