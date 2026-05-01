@@ -1,10 +1,10 @@
 <div align="center">
 
-# Lin (@shenh10)
+# Han Shen (@shenh10)
 
 ML systems & infra · LLM training / inference · distributed RL · GPU performance
 
-`thushenhan@gmail.com`
+[🌐 shenhan.cc](https://shenhan.cc/) · [📝 知乎](https://www.zhihu.com/people/han-shen-86) · `thushenhan@gmail.com`
 
 </div>
 
