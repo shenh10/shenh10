@@ -31,17 +31,6 @@ ML systems & infra · LLM training / inference · distributed RL · GPU performa
 
 ---
 
-### 📊 Activity
-
-<p align="center">
-  <img src="./metrics.svg" alt="Metrics" width="780" />
-</p>
-<p align="center">
-  <img src="./metrics.languages.svg" alt="Languages" width="780" />
-</p>
-
----
-
 ### ⭐ Star history
 
 <p align="center">
